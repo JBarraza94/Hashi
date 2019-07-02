@@ -7,8 +7,8 @@ const pagesRoute:Routes = [
     { path: '', 
       component: PagesComponent,
       children: [
-          {path: 'dashboard', component: DashboardComponent},
-          {path: 'users', component: UsersComponent},
+          {path: 'dashboard', component: DashboardComponent, data: {title: 'Dashboard'}},
+          {path: 'users', component: UsersComponent, data: {title: 'Usuarios'}},
           {path: '', redirectTo: '/dashboard', pathMatch: 'full'}
                 ]
     },

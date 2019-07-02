@@ -19,6 +19,15 @@ export class SidebarService {
       submenu : [
         {title: 'Usuarios', url: '/users'}
       ]
+    },
+    {
+      title: 'Cotizaciones',
+      icon: 'mdi mdi-library-books',
+      url: '',
+      sub: true,
+      submenu : [
+        {title: 'Crear cotización', url: '/cotizaciones'}
+      ]
     }
     ];
 
