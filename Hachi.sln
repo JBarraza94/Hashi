@@ -5,11 +5,13 @@ VisualStudioVersion = 16.0.28803.156
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hachi.Web", "Hachi.Web\Hachi.Web.csproj", "{3143A553-DF04-445A-94B6-7859722CC736}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hashi.DAL", "Hashi.DAL\Hashi.DAL.csproj", "{904DAEB7-9FDC-4329-820C-E6AC37E1E1E9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hashi.DAL", "Hashi.DAL\Hashi.DAL.csproj", "{904DAEB7-9FDC-4329-820C-E6AC37E1E1E9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hashi.BLL", "Hashi.BLL\Hashi.BLL.csproj", "{A5B0D3E2-AB4B-48BD-9BB8-C25A4A16CABE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hashi.BLL", "Hashi.BLL\Hashi.BLL.csproj", "{A5B0D3E2-AB4B-48BD-9BB8-C25A4A16CABE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hashi.Entities", "Hashi.Entities\Hashi.Entities.csproj", "{02E3CE2B-3E03-49DE-B262-1116EB948AE7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hashi.Entities", "Hashi.Entities\Hashi.Entities.csproj", "{02E3CE2B-3E03-49DE-B262-1116EB948AE7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hachi.WebApp", "Hachi.WebApp\Hachi.WebApp.csproj", "{14C6A68A-02F6-4B20-BDD8-B28D7D8F599B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{02E3CE2B-3E03-49DE-B262-1116EB948AE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{02E3CE2B-3E03-49DE-B262-1116EB948AE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{02E3CE2B-3E03-49DE-B262-1116EB948AE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14C6A68A-02F6-4B20-BDD8-B28D7D8F599B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14C6A68A-02F6-4B20-BDD8-B28D7D8F599B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14C6A68A-02F6-4B20-BDD8-B28D7D8F599B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14C6A68A-02F6-4B20-BDD8-B28D7D8F599B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
