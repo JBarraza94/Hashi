@@ -1,21 +1,26 @@
 
-<router-outlet></router-outlet>
+<app-navbar></app-navbar>
+<app-header></app-header>
 
-<!-- Footer -->
-<footer class="bg-black small text-center text-white-50">
-  <div class="container">
-    Copyright &copy; Somnium 2019
-  </div>
-</footer>
+<!-- About Section -->
+<section id="about" class="projects-section bg-light fadeIn">
+    <div class="container">
+      <app-about></app-about>
+    </div>
+</section>
 
-<!-- Bootstrap core JavaScript -->
-<script src="vendor/jquery/jquery.min.js"></script>
+<!-- Gallery Section -->
+<section id="gallery" class="gallery-section bg-light">
+    <div class="container gallery-container">
+      <app-gallery></app-gallery>
+    </div>
+</section>
 
+<!-- Contact Section -->
+<section id="contact" class="contact-section bg-black fadeIn">
+    <div class="container">
+      <app-contacto></app-contacto>
+    </div>
+</section>
 
-<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-<!-- Plugin JavaScript -->
-<script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-
-<!-- Custom scripts for this template -->
-<script src="js/grayscale.js"></script>
+<app-footer></app-footer>
