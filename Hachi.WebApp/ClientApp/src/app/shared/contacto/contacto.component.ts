@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { FormGroup, FormControl, Validators } from '@angular/forms';
 import { ContactoService } from '../../services/contacto/contacto.service';
+
 import Swal from 'sweetalert2';
 
 @Component({
@@ -50,9 +51,9 @@ export class ContactoComponent implements OnInit {
       title: 'Tu mensaje ah sido enviado',
       showConfirmButton: false,
       timer: 2000
-    })
+    });
 
-    this.reset();
+    this.reset(); 
 
   }
 
