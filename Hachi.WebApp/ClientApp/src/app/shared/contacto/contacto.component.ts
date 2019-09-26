@@ -8,6 +8,7 @@ import Swal from 'sweetalert2';
   templateUrl: './contacto.component.html',
   styleUrls: ['./contacto.component.css']
 })
+
 export class ContactoComponent implements OnInit {
 
   form:FormGroup;
